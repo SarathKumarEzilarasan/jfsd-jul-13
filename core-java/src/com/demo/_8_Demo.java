@@ -1,4 +1,11 @@
+package com.demo;
+
 public class _8_Demo {
+
+    static int x = 100;
+    int y = 200;
+
+
     public static void main(String[] args) {
         String s = "hello world";
         // object or instance
@@ -7,6 +14,12 @@ public class _8_Demo {
 
         System.out.println(obj);
     }
+
+
+    public static void add() {
+    }
+
+
 }
 
 

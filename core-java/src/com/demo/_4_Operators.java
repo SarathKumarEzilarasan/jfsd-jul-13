@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _4_Operators {
     public static void main(String[] args) {
         // Arithmetic operators

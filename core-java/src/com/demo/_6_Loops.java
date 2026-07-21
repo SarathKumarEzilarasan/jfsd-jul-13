@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _6_Loops {
     public static void main(String[] args) {
         // loops -> while , for , do while

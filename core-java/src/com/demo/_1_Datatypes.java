@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _1_Datatypes {
 
     //  skdkjsdjfk sdlfkslkdflk dslsdkflkxdlf

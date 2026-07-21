@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _10_Arrays {
     public static void main(String[] args) {
         // data structures -> create add update 'delete' read search

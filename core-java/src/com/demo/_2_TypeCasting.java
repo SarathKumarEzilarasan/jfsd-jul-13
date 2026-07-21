@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _2_TypeCasting {
     public static void main(String[] args) {
         // byte -> short -> int -> long -> float -> double [up casting]

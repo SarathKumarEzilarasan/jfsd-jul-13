@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _9_Strings {
     public static void main(String[] args) {
         // String intern pool
@@ -38,13 +40,15 @@ public class _9_Strings {
 //            System.out.println(s1.charAt(i));
 //        }
 
-        isPalindrome("madam");
+//        isPalindrome("madam");
+        //                   l    r
 //        System.out.println("hello" + "world");
+        _isPalindrome("madam");
     }
 
     //    palindrome -> madam
     public static void isPalindrome(String original) {
-        // reverse
+        // reverse -> madam........................nm
         // compare
         String reverse = "";
         for (int i = original.length() - 1; i >= 0; i--) {
@@ -55,8 +59,29 @@ public class _9_Strings {
 
         if (original.equals(reverse)) {
             System.out.println("Its a palindrome");
-        }else {
+        } else {
             System.out.println("Not a palindrome");
         }
     }
+
+    public static void _isPalindrome(String original) {
+        boolean flag = true;
+        for (int i = 0; i < original.length() / 2; i++) {
+            char l = original.charAt(i);                           // 0  1 2
+            char r = original.charAt(original.length() - 1 - i);   // 4  3 2
+
+            if (l != r) {
+                flag = false;
+                break;
+            }
+        }
+
+        if (flag) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not a palindrome");
+        }
+    }
+
+
 }

@@ -1,3 +1,5 @@
+package com.demo;
+
 public class _5_Conditional_Statements {
     public static void main(String[] args) {
 //        int age = 18;
@@ -70,5 +72,14 @@ public class _5_Conditional_Statements {
             System.out.println("c is greater than a and b");
         }
 
+
+//        nested if
+        if (true){
+            if(true){
+
+            }else {
+
+            }
+        }
     }
 }

@@ -1,3 +1,5 @@
+package com.demo;
+
 import java.util.Scanner;
 
 public class _3_User_Input_Handling {
@@ -6,7 +8,10 @@ public class _3_User_Input_Handling {
         System.out.println(age);
 
         // variable, object , instance
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
 
+        System.out.println(a + b);
     }
 }
